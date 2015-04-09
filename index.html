@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="js/modernizer.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" />
+    <title></title>
+</head>
+
+<body>
+
+
+    <noscript>
+        no js script
+    </noscript>
+
+    <div class="rounded-div">
+        DIV with border-radius
+        <pre>
+         div { 
+                border: 2px solid;
+                border-radius: 25px;
+            }
+        </pre>
+    </div>
+
+
+    <div class="shadow">
+        DIV with Shadow
+        <pre>
+         div { 
+            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            }
+        </pre>
+    </div>
+
+
+    <script>
+    Modernizr.load({
+        test: Modernizr.mq('only all'),
+        nope: 'js/respond.min.js'
+    });
+    </script>
+
+</body>
+
+</html>
