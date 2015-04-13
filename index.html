@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <a href="index.html">TESTE</a>
     <h1>Header 1</h1>
     <h2>Header 2</h2>
     <h3>Header 3</h3>
@@ -33,8 +34,12 @@
     <script type="text/javascript">
     console.log("href: " + location.href);
 
-    location.href = location.href + "#123";
+    // location.href = location.href + "#123";
+    location.hash = "p_123,l_en";
+    // location.href = location.href + "?hl=pt-PT&tab=wn";
     // location.href = location.href.replace(/&?e=([^&]$|[^&]*)/i, "");
+
+    // http://news.google.pt/nwshp?hl=pt-PT&tab=wn
 
     // location.replace("http://www.w3schools.com");
     </script>
