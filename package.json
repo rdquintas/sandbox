@@ -1,0 +1,23 @@
+{
+  "name": "sandbox",
+  "version": "0.0.0",
+  "description": "Project | My personal HTTP sandbox\r --- | ---\r Info | My own Playground!!\r Version | 1.0\r URL | [http://rdquintas.github.io/sandbox](http://rdquintas.github.io/sandbox)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdquintas/sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdquintas/sandbox/issues"
+  },
+  "homepage": "https://github.com/rdquintas/sandbox",
+  "dependencies": {
+    "twitter": "~1.2.5"
+  },
+  "devDependencies": {}
+}
