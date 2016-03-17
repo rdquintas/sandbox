@@ -1,5 +1,5 @@
 var thumbs = require('thumbs');
-//12
+//1
 var thumbnails = thumbs({
     small: {
         height: 256 * 2,
