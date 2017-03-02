@@ -9,7 +9,7 @@ URL | [http://rdquintas.github.io/sandbox](http://rdquintas.github.io/sandbox)
 
 teste3
 
-
+```
    CREATE TABLE `student` (
     `id` INT(10) NOT NULL AUTO_INCREMENT,
     `name` VARCHAR(50) NULL DEFAULT NULL,
@@ -19,3 +19,4 @@ teste3
     `lastupdated` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     PRIMARY KEY (`id`)
    );
+```
