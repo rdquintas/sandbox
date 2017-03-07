@@ -27,17 +27,10 @@ teste3
 
 Project | My personal HTTP sandbox
 --- | ---
-Info | My own Playground!!
-Version | 1.0
-URL | [http://rdquintas.github.io/sandbox](http://rdquintas.github.io/sandbox)
-
-
 zrq.com.aop.aspectj.annotationbased2 | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-
 zrq.com.aop.aspectj.xmlbased | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-
 zrq.com.aop.example1 | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
 
