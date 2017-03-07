@@ -25,6 +25,8 @@ teste3
 #Teste
 
 - And another item
+
    To have a line break without a paragraph, you will need to use two trailing spaces  
+
 - And another item
    To have a line break without a paragraph, you will need to use two trailing spaces  
