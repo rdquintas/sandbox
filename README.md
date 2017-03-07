@@ -1,6 +1,6 @@
 # zrqSpringCookBook
 
-##AOP - Aspect Oriented Programming 
+##Aspect Oriented Programming (AOP)
 
 Project | Information
 --- | ---
