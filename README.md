@@ -1,14 +1,21 @@
 # SpringLab
-Stuff I did with JAVA Spring.
+Stuff I did with JAVA Spring. Voici les projets:
 
-Et voila... les projets:
+------
 
--------
 
 [zrqSpringCookBook](https://github.com/rdquintas/SpringLab/tree/master/zrqSpringCookBook)
-> This example shows how to Spring Aspect Oriented Programming using AspectJ
+> Core Spring stuff. Beans. AOP. Configs. Etc...
 
 [zrqMVCexample01](https://github.com/rdquintas/SpringLab/tree/master/zrqMVCexample01)
-> This MVC example shows how to Spring Aspect Oriented Programming ANNOTATION based 
+> Simple MVC example: 
+>  - created using spring-boot
+>  - no web.xml
+>  - no xxxx-servlet.xml
 
--------
+[zrqMVCexample02](https://github.com/rdquintas/SpringLab/tree/master/zrqMVCexample02)
+> Simple MVC example: 
+>  - created using Dynamic Web Project
+>  - with web.xml (servlet v3.1)
+>  - with xxxx-servlet.xml
+
