@@ -1,7 +1,7 @@
 # SpringLab
 Stuff I did with JAVA Spring. Voici les projets:
 
-------xxxx
+------xxx
 
 
 [zrqSpringCookBook](https://github.com/rdquintas/SpringLab/tree/master/zrqSpringCookBook)
