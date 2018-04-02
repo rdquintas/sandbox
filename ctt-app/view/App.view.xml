@@ -1,0 +1,5 @@
+<mvc:View 
+	xmlns:mvc="sap.ui.core.mvc" controllerName="deloitte.r2022.controller.App" displayBlock="true" 
+	xmlns="sap.m">
+	<App id="app"	class = "dl-r2022" busy="{appView>/busy}" busyIndicatorDelay="{appView>/delay}"/>
+</mvc:View>

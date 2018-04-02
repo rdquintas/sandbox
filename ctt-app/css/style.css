@@ -1,0 +1,23 @@
+.dl-r2022 .dl-tile-icon .sapUiIcon {
+    font-size: 4.5rem;
+}
+
+.dl-r2022 .dl-od {
+    font-size: 3rem;
+}
+
+.dl-r2022 .dl-150px {
+    width: 150px !important;
+}
+
+.dl-r2022 .dl-error * span {
+    color: red !important;
+}
+
+.dl-r2022 .dl-success * span {
+    color: green !important;
+}
+
+.dl-r2022 .dl-none * span {
+    color: #bdbdbd !important;
+}

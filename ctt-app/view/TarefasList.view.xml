@@ -1,0 +1,42 @@
+<mvc:View controllerName="deloitte.r2022.controller.TarefasList" 
+	xmlns="sap.m" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:semantic="sap.m.semantic">
+	<semantic:FullscreenPage id="page" semanticRuleSet="Optimized" navButtonPress="onNavBack" showNavButton="true" title="Tarefas Picking">
+		<semantic:content>
+			<Table id="table" width="auto" class="sapUiResponsiveMargin" items="{path: '/Zrqdatas',	sorter: { path: 'ObjectID',	descending: false }	}" noDataText="{worklistView>/tableNoDataText}" busyIndicatorDelay="{worklistView>/tableBusyDelay}" growing="true" growingScrollToLoad="true" updateFinished="onUpdateFinished">
+				<headerToolbar>
+					<Toolbar>
+						<Title id="tableHeader" text="OD: 343 597 084"/>
+						<ToolbarSpacer />
+						<SearchField id="searchField" tooltip="{i18n>worklistSearchTooltip}" search="onSearch" width="auto"></SearchField>
+					</Toolbar>
+				</headerToolbar>
+				<columns>
+					<Column id="tarefaColumn">
+						<Text text="Tarefa" id="tarefa"/>
+					</Column>
+					<Column id="materialColumn">
+						<Text text="Material" id="material"/>
+					</Column>
+					<Column id="quantColumn">
+						<Text text="Quantidade" id="quant"/>
+					</Column>
+					<Column id="statusColumn" hAlign="End">
+						<Text text="Status" id="status"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem id="cenas" type="Navigation" press="onPress">
+						<cells>
+							<ObjectIdentifier title="{ObjectID}"/>
+							<ObjectIdentifier title="{Material}"/>
+							<ObjectIdentifier title="{Quantidade}"/>
+							<ObjectStatus state="{Status}" icon="{SapIcon}"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</semantic:content>
+	</semantic:FullscreenPage>
+</mvc:View>

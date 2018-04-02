@@ -1,0 +1,33 @@
+<mvc:View controllerName="deloitte.r2022.controller.Home" 
+	xmlns="sap.m" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:semantic="sap.m.semantic">
+	<Page title="{i18n>appTitle}" class="sapUiContentPadding" showNavButton="false">
+		<content>
+			<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>homeViewTile1}" subheader="" press="onNavTile1">
+				<TileContent unit="" footer="">
+					<ImageContent class='dl-tile-icon' src="sap-icon://laptop" />
+				</TileContent>
+			</GenericTile>
+			<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>homeViewTile2}" subheader="" press="onPress">
+				<TileContent unit="" footer="">
+					<ImageContent class='dl-tile-icon' src="sap-icon://dimension" />
+				</TileContent>
+			</GenericTile>
+			<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>homeViewTile3}" subheader="" press="onPress">
+				<TileContent unit="" footer="">
+					<ImageContent class='dl-tile-icon' src="sap-icon://edit" />
+				</TileContent>
+			</GenericTile>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button text="Accept" type="Accept" />
+				<Button text="Reject" type="Reject" />
+				<Button text="Edit" />
+				<Button text="Delete" />
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>
